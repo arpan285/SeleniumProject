@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="classes" thread-count="3">
+
+  <test name="Crossbrowser">
+  
+    <classes>
+    
+      <class name="Testpackage.Demo2024"/>  
+
+      <class name="Testpackage.Demofirefox"/>     
+      
+ 	  <class name="Testpackage.Demoedge"/> 
+      
+    </classes>
+    
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
